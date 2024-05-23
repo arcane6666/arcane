@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcane - Página de inicio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="arcane.css">
+    <style>
+        /* Estilos adicionales */
+        body {
+            background: url(img/1.gif) no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+
+        header nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header nav ul {
+            display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        header nav ul li {
+            margin-right: 20px;
+        }
+
+        header nav ul li:last-child {
+            margin-right: 0;
+        }
+
+        header nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        header nav ul li a:hover {
+            color: #F9A825;
+        }
+
+        .inicio-container, .personajes-container, .historia-container, .galeria {
+            margin-top: 20px;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .personajes-container ul {
+            padding-left: 20px;
+        }
+
+        .personajes-container ul li {
+            margin-bottom: 20px;
+        }
+
+        .personajes-container ul li img {
+            display: block;
+            width: 200px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        .galeria {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .galeria video {
+            width: 200px;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #F9A825;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Arcane</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#personajes">Personajes</a></li>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#galeria">Galería</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <div class="inicio-container">
+                <h2>Inicio</h2>
+                <p>"Arcane" es una serie de televisión animada producida por Riot Games y desarrollada en colaboración con Fortiche Productions. Se estrenó en Netflix en 2021. La serie está ambientada en el universo de "League of Legends" y se centra en los personajes y las historias de las ciudades de Piltover y Zaun. "Arcane" es conocida por su impresionante animación, narrativa compleja y profundidad de personajes, lo que la convierte en una de las series más destacadas en el ámbito de la animación y el género de fantasía.</p>
+            </div>
+        </section>
+
+        <section id="personajes">
+            <div class="personajes-container">
+                <h2>Personajes</h2>
+                <p>Aquí tienes una lista más extensa de personajes de "Arcane" junto con breves resúmenes de sus historias:</p>
+                <ul>
+                    <li>
+                        <strong>Vi:</strong> Una joven luchadora y protectora de su hermana menor, Jinx. Vi creció en las calles de Zaun y se unió a una banda criminal antes de decidir cambiar su vida.
+                        <img src="img/vi.jpg" alt="Vi">
+                    </li>
+                    <li>
+                        <strong>Jinx (Powder):</strong> La hermana menor de Vi, quien se convierte en la villana conocida como Jinx después de un trágico incidente que cambia su vida.
+                        <img src="img/jinx.jpg" alt="Jinx">
+                    </li>
+                    <li>
+                        <strong>Jayce:</strong> Un brillante inventor de Piltover que trabaja para mejorar su ciudad y proteger a su gente de amenazas externas, como el creciente conflicto con Zaun.
+                        <img src="img/jayce.jpg" alt="Jayce">
+                    </li>
+                    <li>
+                        <strong>Ekko:</strong> Un joven ingenioso de Zaun que lidera un grupo de rebeldes y lucha por proteger a su comunidad de la opresión de Piltover y los conflictos internos.
+                        <img src="img/ekko.jpg" alt="Ekko">
+                    </li>
+                    <li>
+                        <strong>Vander:</strong> Una figura paterna en la vida de Vi y Jinx, y líder respetado en la Undercity que trata de mantener la paz y la seguridad en su comunidad.
+                        <img src="img/vander.jpg" alt="Vander">
+                    </li>
+                    <li>
+                        <strong>Heimerdinger:</strong> Un erudito y científico de Piltover, reconocido por sus inventos y contribuciones a la tecnología de la ciudad.
+                        <img src="img/heimerdinger.jpg" alt="Heimerdinger">
+                    </li>
+                    <li>
+                        <strong>Sevika:</strong> Una leal aliada de Silco en la Undercity, que utiliza su ingenio y habilidades para mantener el control sobre la gente de Zaun.
+                        <img src="img/sevika.jpg" alt="Sevika">
+                    </li>
+                    <li>
+                        <strong>Marcus:</strong> Un oficial de Piltover y amigo cercano de Caitlyn, que trabaja para mantener la paz en la ciudad.
+                        <img src="img/marcus.jpg" alt="Marcus">
+                    </li>
+                    <li>
+                        <strong>Clagger:</strong> Un poderoso y violento criminal en Zaun, que busca aprovechar el caos generado por el conflicto entre Piltover y la Undercity.
+                        <img src="img/clagger.jpg" alt="Clagger">
+                    </li>
+                    <li>
+                        <strong>Mel:</strong> Una joven con habilidades sobrenaturales que se convierte en una pieza clave en el conflicto entre las dos ciudades.
+                        <img src="img/mel.jpg" alt="Mel">
+                    </li>
+                    <li>
+                        <strong>Grayson:</strong> Un investigador privado de Piltover que se involucra en asuntos turbios mientras trata de ganarse la vida.
+                        <img src="img/grayson.jpg" alt="Grayson">
+                    </li>
+                    <li>
+                        <strong>Singed:</strong> Un científico loco y despiadado que trabaja para Silco en la Undercity, realizando experimentos peligrosos y mortales.
+                        <img src="img/singed.jpg" alt="Singed">
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="historia">
+            <div class="historia-container">
+                <h2>Historia</h2>
+                <p>La primera temporada de "Arcane" se centra en el conflicto entre las ciudades de Piltover y Zaun, así como en el desarrollo de los personajes principales, Vi, Jinx (Powder), Jayce y Silco. La serie explora sus orígenes, motivaciones y relaciones mientras el conflicto entre las dos ciudades se intensifica.</p>
+                <p>La historia comienza con Vi y Powder viviendo en la pobreza en Zaun, donde se unen a una pandilla criminal liderada por Vander. Después de un robo que sale mal, Powder se separa de Vi y termina en manos de Silco, un poderoso líder de la Undercity.</p>
+                <p>Mientras tanto, en Piltover, Jayce trabaja en sus inventos con la esperanza de mejorar la vida de su ciudad. Sin embargo, los conflictos políticos y sociales entre Piltover y Zaun comienzan a empeorar, lo que lleva a tensiones crecientes y eventualmente al estallido de la violencia.</p>
+                <p>A medida que la temporada avanza, Vi y Jayce se encuentran en lados opuestos del conflicto, con Vi luchando en Zaun y Jayce defendiendo Piltover. Mientras tanto, la transformación de Powder en Jinx se completa, y ella se convierte en una fuerza destructiva que amenaza a ambas ciudades.</p>
+                <p>El final de la temporada presenta un enfrentamiento épico entre los personajes principales en medio de la creciente violencia y la traición. La temporada cierra con importantes revelaciones sobre los verdaderos motivos de Silco y el impacto devastador de las acciones de Jinx en el futuro de Piltover y Zaun.</p>
+            </div>
+        </section>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Galería de Videos</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Arcadeia&display=swap">
+        <style>
+            body {
+                font-family: 'Arcadeia', sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+                color: #333;
+            }
+            #galeria {
+                padding: 20px;
+                max-width: 800px;
+                margin: 0 auto;
+            }
+            #galeria h2 {
+                text-align: center;
+                color: #444;
+            }
+            .galeria {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+            .video-container {
+                position: relative;
+                width: 100%;
+                padding-top: 56.25%; /* Proporción de aspecto 16:9 */
+                overflow: hidden;
+                border-radius: 10px;
+                cursor: move;
+            }
+            .video-container video {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <section id="galeria">
+                <h2>Galería</h2>
+                <div class="galeria">
+                    <div class="video-container">
+                        <video src="img/Ekko vs Jinx _ ARCANE _ Español Latino.mp4" controls></video>
+                    </div>
+                    <div class="video-container">
+                        <video src="img/El monstruo que creaste _ FINAL _ ARCANE _ Español Latino.mp4" controls></video>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script>
+            let active = false;
+            let currentX;
+            let currentY;
+            let initialX;
+            let initialY;
+            let xOffset = 0;
+            let yOffset = 0;
+    
+            const dragStart = (e) => {
+                if (e.type === "touchstart") {
+                    initialX = e.touches[0].clientX - xOffset;
+                    initialY = e.touches[0].clientY - yOffset;
+                } else {
+                    initialX = e.clientX - xOffset;
+                    initialY = e.clientY - yOffset;
+                }
+    
+                if (e.target === document.querySelector('.video-container')) {
+                    active = true;
+                }
+            };
+    
+            const dragEnd = () => {
+                initialX = currentX;
+                initialY = currentY;
+    
+                active = false;
+            };
+    
+            const drag = (e) => {
+                if (active) {
+                    e.preventDefault();
+    
+                    if (e.type === "touchmove") {
+                        currentX = e.touches[0].clientX - initialX;
+                        currentY = e.touches[0].clientY - initialY;
+                    } else {
+                        currentX = e.clientX - initialX;
+                        currentY = e.clientY - initialY;
+                    }
+    
+                    xOffset = currentX;
+                    yOffset = currentY;
+    
+                    setTranslate(currentX, currentY, e.target);
+                }
+            };
+    
+            const setTranslate = (xPos, yPos, el) => {
+                el.style.transform = `translate3d(${xPos}px, ${yPos}px, 0)`;
+            };
+    
+            document.addEventListener("mousedown", dragStart);
+            document.addEventListener("mouseup", dragEnd);
+            document.addEventListener("mousemove", drag);
+    
+            document.addEventListener("touchstart", dragStart);
+            document.addEventListener("touchend", dragEnd);
+            document.addEventListener("touchmove", drag);
+        </script>
+    <footer>
+      /* Archivo CSS: arcane.css */
+
+/* Importar la fuente de Arcane */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&display=swap');
+
+body {
+    font-family: 'IM Fell DW Pica', serif;
+    background: url('ruta/a/tu/fondo-de-arcane.gif') no-repeat center center fixed; /* Aquí se añade el GIF */
+    background-size: cover;
+    color: #F9A825; /* Color claro para mayor contraste con el fondo oscuro */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #401C33;
+    padding: 20px 0;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+header h1 {
+    margin: 0;
+    color: #A63F8A;
+    font-size: 4em; /* Aumentado */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #A63F8A;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5em; /* Aumentado */
+}
+
+nav ul li a:hover {
+    color: #F9A825;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 30px;
+    background-color: rgba(0, 1, 13, 0.8); /* Fondo semi-transparente para legibilidad */
+    border-radius: 10px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+section h2 {
+    color: #732959;
+    margin-bottom: 20px;
+    font-size: 3em; /* Aumentado */
+}
+
+.inicio-container, .personajes-container, .historia-container, .galeria {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.inicio-container p, .personajes-container p, .historia-container p {
+    font-size: 1.5em; /* Aumentado */
+    line-height: 1.8; /* Aumentado para mejorar la legibilidad */
+}
+
+.personajes-container ul li {
+    margin-bottom: 30px;
+}
+
+.personajes-container ul li img, .galeria img {
+    display: block;
+    width: 250px;
+    margin: 20px auto;
+    transition: transform 0.3s ease;
+}
+
+.personajes-container ul li img:hover, .galeria img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #401C33;
+    color: #A63F8A;
+    padding: 20px 0;
+    box-shadow: 0 -4px 2px -2px gray;
+}
+
+footer p {
+    margin: 10px 0;
+    font-size: 1.5em; /* Aumentado */
+}
+
+footer a {
+    color: #F9A825;
+    text-decoration: none;
+    font-size: 1.5em; /* Aumentado */
+}
+
+footer a:hover {
+    color: #A63F8A;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#galeria {
+    padding: 20px;
+    text-align: center;
+}
+
+#galeria h2 {
+    color: #333;
+    margin-bottom: 50px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.galeria video {
+    max-width: 100%;
+    width: 300px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #000;
+}
+
+.galeria video:focus {
+    outline: none;
+    border-color: #666;
+}
+
+        <p>&copy; 2024 Arcane. .</p>
+        <a href="https://www.netflix.com/es/title/81435684" target="_blank">Ver en Netflix</a>
+    </footer>
+</body>
+</html>
